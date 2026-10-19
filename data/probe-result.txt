@@ -1,0 +1,8 @@
+linkedin genai engineer: HTTP 200 bytes=29928 parsed=10 captcha/block-hint=false
+  sample: <!DOCTYPE html> <li> <div class="base-card relative w-full hover:no-underline focus:no-underline base-card--l
+linkedin forward deployed engineer: HTTP 200 bytes=29960 parsed=10 captcha/block-hint=false
+  sample: <!DOCTYPE html> <li> <div class="base-card relative w-full hover:no-underline focus:no-underline base-card--l
+naukri html: HTTP 200 bytes=35783 parsed=0 captcha/block-hint=false
+  sample: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><link rel="dns-prefetch" href="https://www.googletagmanager.com"/><link rel="stylesheet" href="https
+naukri api: HTTP 406 bytes=83 parsed=json-no-jobDetails captcha/block-hint=true
+  sample: {"message":"recaptcha required","statusCode":406,"validationErrors":[],"data":null}
