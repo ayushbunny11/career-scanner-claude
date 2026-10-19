@@ -409,7 +409,7 @@
 # skip_tiers: [intern, entry]  # optional: skip listings by seniority tier (note: unrecognized/plain titles fall back to 'mid')
 
 # ---- Personalised for Ayush: AI / GenAI / agentic / FDE roles in India ----
-max_posting_age_days: 14
+max_posting_age_days: 45
 
 location_filter:
   strict: true
