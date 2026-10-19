@@ -1,0 +1,62 @@
+name: Daily career scan
+
+# Runs the zero-token career-ops portal scanner against ~115 company job boards
+# (Greenhouse / Lever / Ashby / Workday ...), filtered by portals.yml to AI /
+# GenAI / agentic / FDE roles in India. New postings are appended to
+# data/scan-history.tsv and data/pipeline.md and committed back to this repo.
+# The scanner de-duplicates against that history, so each run only reports
+# postings it has not shown before.
+
+on:
+  schedule:
+    # 03:00 UTC = 08:30 IST. GitHub can delay scheduled runs by up to an hour.
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/daily-scan.yml"
+      - "portals.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: career-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies (no install scripts)
+        run: npm install --ignore-scripts --no-audit --no-fund --omit=optional
+
+      - name: Scan company boards
+        run: |
+          mkdir -p data
+          # Exit code 2 means some boards errored; keep the results from the rest.
+          set +e
+          node scan.mjs --since 3 --quiet 2>&1 | tee data/last-scan.log
+          echo "scan exit code: ${PIPESTATUS[0]}" | tee -a data/last-scan.log
+          exit 0
+
+      - name: Commit results
+        run: |
+          git config user.name "career-scan-bot"
+          git config user.email "career-scan-bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No new data to commit."
+            exit 0
+          fi
+          git commit -m "scan: $(date -u +%Y-%m-%d) results"
+          git pull --rebase origin main
+          git push origin HEAD:main
