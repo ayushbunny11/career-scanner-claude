@@ -409,9 +409,10 @@
 # skip_tiers: [intern, entry]  # optional: skip listings by seniority tier (note: unrecognized/plain titles fall back to 'mid')
 
 # ---- Personalised for Ayush: AI / GenAI / agentic / FDE roles in India ----
-max_posting_age_days: 3
+max_posting_age_days: 7
 
 location_filter:
+  strict: true
   allow:
     - "India"
     - "Bengaluru"
@@ -471,6 +472,12 @@ title_filter:
     - "Software Engineer, AI"
     - "Software Engineer - AI"
     - "Software Engineer (AI"
+    - "Deployment Engineer"
+    - "Software Engineer, Machine Learning"
+    - "Software Engineer - Machine Learning"
+    - "Machine Learning Software"
+    - "Solutions Engineer"
+    - "AI Architect"
   negative:
     - "word:Intern"
     - "word:Interns"
@@ -482,7 +489,7 @@ title_filter:
     - "VP"
     - "Head of"
     - "word:Manager"
-    - "Architect"
+    - "word:Solutions Architect"
     - "Sales"
     - "Account"
     - "Marketing"
