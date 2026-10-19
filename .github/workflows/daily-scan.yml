@@ -44,7 +44,7 @@ jobs:
           mkdir -p data
           # Exit code 2 means some boards errored; keep the results from the rest.
           set +e
-          node scan.mjs --since 45 --quiet 2>&1 | tee data/last-scan.log
+          node scan.mjs --since 14 --quiet 2>&1 | tee data/last-scan.log
           echo "scan exit code: ${PIPESTATUS[0]}" | tee -a data/last-scan.log
           exit 0
 
