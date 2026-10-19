@@ -23,4 +23,10 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4739203005 | Glean | AI Data Analyst | Bangalore, India | posted: 2026-10-07
 - [ ] https://careers.allianz.com/global/en/job/106990/Application-Architect-Java-AI-3008 | Allianz | Application Architect(Java&AI)_3008 | India | posted: 2026-10-09
 
+- [ ] https://job-boards.greenhouse.io/glance/jobs/7846609 | IN-glance | SDE II - Gen AI | Bangalore | posted: 2026-10-07
+- [ ] https://job-boards.greenhouse.io/twilio/jobs/8258587 | IN-twilio | Machine Learning Engineer (L3) | Remote - India | posted: 2026-10-08
+- [ ] https://job-boards.greenhouse.io/coursera/jobs/6223129004 | IN-coursera | Enterprise Agentic AI Architect | India | posted: 2026-10-14
+- [ ] https://job-boards.greenhouse.io/coursera/jobs/6212857004 | IN-coursera | LLMops Engineer | India | posted: 2026-10-06
+- [ ] https://jobs.ashbyhq.com/cerebras/c2198d42-ccad-4bee-aa43-83027aa5e46e | IN-cerebras | Full Stack Machine Learning Engineer | Bengaluru, IND · Bengaluru · India | posted: 2026-10-09
+
 ## Processed
