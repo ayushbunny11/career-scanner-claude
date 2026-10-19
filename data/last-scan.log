@@ -1,10 +1,11 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[13:12:19] scan: 25/148 sources done
-[13:12:20] scan: 50/148 sources done
-[13:12:22] scan: 75/148 sources done
-[13:12:23] scan: 100/148 sources done
-[13:12:24] scan: 125/148 sources done
-[13:13:08] scan: 148/148 sources done
+[13:13:37] scan: 25/148 sources done
+[13:13:38] scan: 50/148 sources done
+[13:13:39] scan: 75/148 sources done
+[13:13:40] scan: 100/148 sources done
+[13:13:41] scan: 125/148 sources done
+⚠️  greenhouse: IN-stripe /offices enrichment failed — This operation was aborted (keeping work-model-only locations)
+[13:14:27] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -12,20 +13,13 @@ Portal Scan — 2026-10-19
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23551
-Filtered by title:     19979 removed
-Filtered by location:  3484 removed
-Filtered by age:       47 removed
+Total jobs found:      23572
+Filtered by title:     19999 removed
+Filtered by location:  3487 removed
+Filtered by age:       70 removed
 Filtered by posted date: 0 removed
-Duplicates:            19 skipped
-
-⚠️  Possible cross-listings (same JD text, different company) — warn only, nothing was dropped:
-  - IN-glance — Consultant - AI Governance Specialist
-    ≈ 95% of IN-inmobi — Senior Associate - Video Editor (seen 2026-10-19)
-    https://job-boards.greenhouse.io/glance/jobs/8203695
-    vs https://job-boards.greenhouse.io/inmobi/jobs/8220252
-  If one side is an agency, apply through ONE channel only — a double submission burns both (#1596).
-New offers added:      22
+Duplicates:            16 skipped
+New offers added:      0
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -49,33 +43,7 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • Tiqets (websearch) — site:tiqets.com/jobs "Engineer" OR "Backend" OR "Platform"
   • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
   • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
-🟡 5 target(s) live but empty: Lakera, Bolt, Toggl, Doist, Mistral AI
-
-New offers:
-  + IN-mongodb | Forward Deployed Architect, Industry Solutions | Gurugram
-  + IN-mongodb | Forward Deployed Engineer, Industry Solutions | Gurugram
-  + IN-mongodb | Software Engineer 3, AI Framework Integrations | Gurugram
-  + IN-observeai | AI Agent Engineer | Hyderabad, Telangana, India
-  + IN-samsara | Sr. Software Engineer II / Tech lead, Agentic Platform (Poland, Remote, B2B) | Remote - Poland
-  + IN-cloudflare | Customer Solutions Engineer | In-Office · Remote India
-  + IN-glance | Consultant - AI Governance Specialist | bangalore
-  + IN-inmobi | Applied Scientist III | Bangalore
-  + IN-coursera | AI Specialist II | India
-  + IN-mindtickle | AI Product Engineer | Pune, Maharashtra; Bengaluru, Karnataka
-  + IN-turing | Forward-Deployed AI Engineer | Hyderabad, Telangana, India
-  + IN-starburst | AI Platform Engineer | India
-  + IN-notion | Forward Deployed Engineer, India | Hyderabad, India · Hyderabad
-  + Anthropic | Applied AI Architect | Mumbai, India
-  + Celonis | Lead Deployment Engineer | Bangalore, India
-  + Hugging Face | Senior Open-Source Python Engineer, ML Developer Tools - EMEA Remote | France
-  + Hugging Face | Senior Open-Source Python Engineer, ML Developer Tools - US Remote | United States
-  + IN-paytm | Client Onboarding - Paytm Pi Agent (SMB) | Noida, Uttar Pradesh; Gurugram, Haryana
-  + Allianz | Senior Java AI Technical Lead_D-2678 | India
-  + Allianz | AI Automation Specialist_2881 | Pune, Maharashtra, India
-  + Allianz | Senior Databricks & AI Architect_D3006 | India
-  + Allianz | AI Tech Lead (Data Engineering)_D3006 | India
-
-Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
+🟡 5 target(s) live but empty: Mistral AI, Lakera, Bolt, Toggl, Doist
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4
