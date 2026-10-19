@@ -1,9 +1,8 @@
 Scanning 93 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[12:01:08] scan: 25/94 sources done
-[12:01:09] scan: 50/94 sources done
-[12:01:11] scan: 75/94 sources done
-  ⚠ feishu-jobs: keyword "大模型" page 2 failed (This operation was aborted) — keeping the 5062 jobs collected so far
-[12:01:49] scan: 94/94 sources done
+[12:10:26] scan: 25/94 sources done
+[12:10:27] scan: 50/94 sources done
+[12:10:28] scan: 75/94 sources done
+[12:11:12] scan: 94/94 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -11,13 +10,13 @@ Portal Scan — 2026-10-19
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     93
 Job boards scanned:    1
-Total jobs found:      13879
-Filtered by title:     13275 removed
-Filtered by location:  591 removed
-Filtered by age:       9 removed
+Total jobs found:      14357
+Filtered by title:     13640 removed
+Filtered by location:  704 removed
+Filtered by age:       12 removed
 Filtered by posted date: 0 removed
 Duplicates:            0 skipped
-New offers added:      4
+New offers added:      1
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -41,16 +40,10 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • Tiqets (websearch) — site:tiqets.com/jobs "Engineer" OR "Backend" OR "Platform"
   • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
   • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
-🟡 5 target(s) live but empty: Mistral AI, Lakera, Bolt, Toggl, Doist
-
-Network errors (1):
-  ✗ DeepSeek: fetch failed
+🟡 5 target(s) live but empty: Lakera, Bolt, Toggl, Doist, Mistral AI
 
 New offers:
-  + Nortal | Senior Python/AI Engineer | N/A
-  + Nortal | AI Platform Lead (Captain AI) | N/A
-  + Nortal | Data & AI Engineer | N/A
-  + Nortal | AI Engineer | N/A
+  + Allianz | Technical Lead (Forward Deployed Engineer)_3096 | India
 
 Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
 
