@@ -409,7 +409,7 @@
 # skip_tiers: [intern, entry]  # optional: skip listings by seniority tier (note: unrecognized/plain titles fall back to 'mid')
 
 # ---- Personalised for Ayush: AI / GenAI / agentic / FDE roles in India ----
-max_posting_age_days: 7
+max_posting_age_days: 14
 
 location_filter:
   strict: true
@@ -478,6 +478,15 @@ title_filter:
     - "Machine Learning Software"
     - "Solutions Engineer"
     - "AI Architect"
+    - "word:AI"
+    - "word:ML"
+    - "Agents"
+    - "Agent"
+    - "NLP"
+    - "GPT"
+    - "Copilot"
+    - "Automation Specialist"
+    - "Solution Consultant"
   negative:
     - "word:Intern"
     - "word:Interns"
@@ -1779,6 +1788,180 @@ tracked_companies:
     careers_url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ffe28c5e-dcff-41b8-b801-1ae1a70edb00&ccId=19000101_000001
     provider: adp-workforcenow
     enabled: false
+
+
+  # -- India-heavy / India-hiring companies (added to fix low India coverage) --
+
+  - name: IN-databricks
+    careers_url: https://job-boards.greenhouse.io/databricks
+    api: https://boards-api.greenhouse.io/v1/boards/databricks/jobs
+    enabled: true
+
+  - name: IN-cloudflare
+    careers_url: https://job-boards.greenhouse.io/cloudflare
+    api: https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs
+    enabled: true
+
+  - name: IN-elastic
+    careers_url: https://job-boards.greenhouse.io/elastic
+    api: https://boards-api.greenhouse.io/v1/boards/elastic/jobs
+    enabled: true
+
+  - name: IN-gitlab
+    careers_url: https://job-boards.greenhouse.io/gitlab
+    api: https://boards-api.greenhouse.io/v1/boards/gitlab/jobs
+    enabled: true
+
+  - name: IN-newrelic
+    careers_url: https://job-boards.greenhouse.io/newrelic
+    api: https://boards-api.greenhouse.io/v1/boards/newrelic/jobs
+    enabled: true
+
+  - name: IN-postman
+    careers_url: https://job-boards.greenhouse.io/postman
+    api: https://boards-api.greenhouse.io/v1/boards/postman/jobs
+    enabled: true
+
+  - name: IN-thoughtspot
+    careers_url: https://job-boards.greenhouse.io/thoughtspot
+    api: https://boards-api.greenhouse.io/v1/boards/thoughtspot/jobs
+    enabled: true
+
+  - name: IN-nutanix
+    careers_url: https://job-boards.greenhouse.io/nutanix
+    api: https://boards-api.greenhouse.io/v1/boards/nutanix/jobs
+    enabled: true
+
+  - name: IN-mongodb
+    careers_url: https://job-boards.greenhouse.io/mongodb
+    api: https://boards-api.greenhouse.io/v1/boards/mongodb/jobs
+    enabled: true
+
+  - name: IN-confluent
+    careers_url: https://job-boards.greenhouse.io/confluent
+    api: https://boards-api.greenhouse.io/v1/boards/confluent/jobs
+    enabled: true
+
+  - name: IN-rubrik
+    careers_url: https://job-boards.greenhouse.io/rubrik
+    api: https://boards-api.greenhouse.io/v1/boards/rubrik/jobs
+    enabled: true
+
+  - name: IN-netskope
+    careers_url: https://job-boards.greenhouse.io/netskope
+    api: https://boards-api.greenhouse.io/v1/boards/netskope/jobs
+    enabled: true
+
+  - name: IN-zscaler
+    careers_url: https://job-boards.greenhouse.io/zscaler
+    api: https://boards-api.greenhouse.io/v1/boards/zscaler/jobs
+    enabled: true
+
+  - name: IN-stripe
+    careers_url: https://job-boards.greenhouse.io/stripe
+    api: https://boards-api.greenhouse.io/v1/boards/stripe/jobs
+    enabled: true
+
+  - name: IN-anyscale
+    careers_url: https://job-boards.greenhouse.io/anyscale
+    api: https://boards-api.greenhouse.io/v1/boards/anyscale/jobs
+    enabled: true
+
+  - name: IN-scaleai
+    careers_url: https://job-boards.greenhouse.io/scaleai
+    api: https://boards-api.greenhouse.io/v1/boards/scaleai/jobs
+    enabled: true
+
+  - name: IN-uniphore
+    careers_url: https://job-boards.greenhouse.io/uniphore
+    api: https://boards-api.greenhouse.io/v1/boards/uniphore/jobs
+    enabled: true
+
+  - name: IN-razorpaysoftwareprivatelimited
+    careers_url: https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited
+    api: https://boards-api.greenhouse.io/v1/boards/razorpaysoftwareprivatelimited/jobs
+    enabled: true
+
+  - name: IN-dreamsports
+    careers_url: https://job-boards.greenhouse.io/dreamsports
+    api: https://boards-api.greenhouse.io/v1/boards/dreamsports/jobs
+    enabled: true
+
+  - name: IN-sprinklr
+    careers_url: https://job-boards.greenhouse.io/sprinklr
+    api: https://boards-api.greenhouse.io/v1/boards/sprinklr/jobs
+    enabled: true
+
+  - name: IN-samsara
+    careers_url: https://job-boards.greenhouse.io/samsara
+    api: https://boards-api.greenhouse.io/v1/boards/samsara/jobs
+    enabled: true
+
+  - name: IN-okta
+    careers_url: https://job-boards.greenhouse.io/okta
+    api: https://boards-api.greenhouse.io/v1/boards/okta/jobs
+    enabled: true
+
+  - name: IN-datadog
+    careers_url: https://job-boards.greenhouse.io/datadog
+    api: https://boards-api.greenhouse.io/v1/boards/datadog/jobs
+    enabled: true
+
+  - name: IN-cred
+    careers_url: https://jobs.lever.co/cred
+    enabled: true
+
+  - name: IN-meesho
+    careers_url: https://jobs.lever.co/meesho
+    enabled: true
+
+  - name: IN-groww
+    careers_url: https://jobs.lever.co/groww
+    enabled: true
+
+  - name: IN-paytm
+    careers_url: https://jobs.lever.co/paytm
+    enabled: true
+
+  - name: IN-upgrad
+    careers_url: https://jobs.lever.co/upgrad
+    enabled: true
+
+  - name: IN-observeai
+    careers_url: https://jobs.lever.co/observeai
+    enabled: true
+
+  - name: IN-yellowai
+    careers_url: https://jobs.lever.co/yellowai
+    enabled: true
+
+  - name: IN-gupshup
+    careers_url: https://jobs.lever.co/gupshup
+    enabled: true
+
+  - name: IN-haptik
+    careers_url: https://jobs.lever.co/haptik
+    enabled: true
+
+  - name: IN-zeta
+    careers_url: https://jobs.lever.co/zeta
+    enabled: true
+
+  - name: IN-swiggy
+    careers_url: https://jobs.lever.co/swiggy
+    enabled: true
+
+  - name: IN-phonepe
+    careers_url: https://jobs.lever.co/phonepe
+    enabled: true
+
+  - name: IN-sarvam
+    careers_url: https://jobs.ashbyhq.com/sarvam
+    enabled: true
+
+  - name: IN-krutrim
+    careers_url: https://jobs.ashbyhq.com/krutrim
+    enabled: true
 
   # -- AI Labs & LLM providers --
 
