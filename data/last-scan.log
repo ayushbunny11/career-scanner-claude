@@ -1,22 +1,24 @@
-Scanning 93 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[12:10:26] scan: 25/94 sources done
-[12:10:27] scan: 50/94 sources done
-[12:10:28] scan: 75/94 sources done
-[12:11:12] scan: 94/94 sources done
+Scanning 130 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
+[12:44:42] scan: 25/131 sources done
+[12:44:43] scan: 50/131 sources done
+[12:44:44] scan: 75/131 sources done
+[12:44:45] scan: 100/131 sources done
+[12:44:47] scan: 125/131 sources done
+[12:45:35] scan: 131/131 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Portal Scan — 2026-10-19
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Companies scanned:     93
+Companies scanned:     130
 Job boards scanned:    1
-Total jobs found:      14357
-Filtered by title:     13640 removed
-Filtered by location:  704 removed
-Filtered by age:       12 removed
+Total jobs found:      19823
+Filtered by title:     16590 removed
+Filtered by location:  3170 removed
+Filtered by age:       51 removed
 Filtered by posted date: 0 removed
-Duplicates:            0 skipped
-New offers added:      1
+Duplicates:            1 skipped
+New offers added:      11
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -40,10 +42,25 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • Tiqets (websearch) — site:tiqets.com/jobs "Engineer" OR "Backend" OR "Platform"
   • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
   • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
-🟡 5 target(s) live but empty: Lakera, Bolt, Toggl, Doist, Mistral AI
+
+⚠️  17 target(s) unreachable (slug?): IN-nutanix, IN-confluent, IN-thoughtspot, IN-postman, IN-anyscale, IN-uniphore, IN-dreamsports, IN-sprinklr, IN-groww, IN-haptik, IN-upgrad, IN-krutrim, IN-observeai, IN-yellowai, IN-swiggy, IN-gupshup, IN-phonepe — run: node verify-portals.mjs
+🟡 5 target(s) live but empty: Mistral AI, Lakera, Bolt, Toggl, Doist
+
+Network errors (1):
+  ✗ DeepSeek: fetch failed
 
 New offers:
-  + Allianz | Technical Lead (Forward Deployed Engineer)_3096 | India
+  + IN-rubrik | Senior AI Evals Engineer | Bangalore
+  + IN-rubrik | Senior Software Engineer - Enterprise AI | Bangalore
+  + IN-cloudflare | Software Engineer, AI Agents | In-Office · Remote India
+  + IN-databricks | Forward Deployed Engineer | Remote - India
+  + IN-databricks | Forward Deployed Engineer, FDE (L4) | Remote - India
+  + IN-databricks | Senior Forward Deployed Engineer, Sr FDE (L5) | Remote - India
+  + IN-sarvam | ML Engineer (Training Infra), Foundational Models | Bengaluru · India
+  + Anthropic | Applied AI Architect | Bangalore, India
+  + Anthropic | Applied AI Architect, Partnerships | Bangalore, India
+  + Glean | AI Data Analyst | Bangalore, India
+  + Allianz | Application Architect(Java&AI)_3008 | India
 
 Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
 
