@@ -1,0 +1,59 @@
+Scanning 93 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
+[12:01:08] scan: 25/94 sources done
+[12:01:09] scan: 50/94 sources done
+[12:01:11] scan: 75/94 sources done
+  ⚠ feishu-jobs: keyword "大模型" page 2 failed (This operation was aborted) — keeping the 5062 jobs collected so far
+[12:01:49] scan: 94/94 sources done
+
+::career-ops:scan-summary::
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Portal Scan — 2026-10-19
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Companies scanned:     93
+Job boards scanned:    1
+Total jobs found:      13879
+Filtered by title:     13275 removed
+Filtered by location:  591 removed
+Filtered by age:       9 removed
+Filtered by posted date: 0 removed
+Duplicates:            0 skipped
+New offers added:      4
+Agent/WebSearch handoff: 22 companies not handled by zero-token providers
+  • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
+  • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
+  • Talkdesk (websearch) — site:talkdesk.com/careers "AI" OR "Solutions Architect" OR "AI Engineer"
+  • Twilio (websearch) — site:jobs.twilio.com "AI" OR "Voice" "Solutions" OR "Architect"
+  • Dialpad (websearch) — "dialpad" "AI" "Solutions" OR "Engineer" site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com
+  • Gong (websearch) — site:gong.io/careers "AI" OR "Solutions" OR "Architect"
+  • Genesys (websearch) — site:genesys.com/careers "AI" "Solutions Architect" OR "AI Engineer"
+  • Salesforce (websearch) — site:careers.salesforce.com "Forward Deployed" OR "AI Engineer" OR "Agentforce"
+  • Langfuse (websearch) — "langfuse" careers OR jobs "engineer" OR "solutions"
+  • Cognigy (websearch) — "cognigy" careers "AI" OR "Solutions" OR "Engineer"
+  • Make.com (Celonis) (websearch) — site:make.com/en/careers OR "make.com" "engineer" OR "solutions" site:jobs.ashbyhq.com
+  • Factorial (websearch) — site:careers.factorialhr.com
+  • Revolut (websearch) — site:revolut.com/careers "Java" OR "Backend" OR "Platform" OR "Engineer"
+  • Klarna (websearch) — site:klarna.com/careers "Engineer" OR "Backend" OR "Platform"
+  • Bosch (websearch) — site:jobs.bosch.com "Java" OR "Backend" OR "Cloud"
+  • Shopify (websearch) — site:shopify.com/careers OR site:shopify.com/careers/* "Engineer" OR "Backend" OR "Platform"
+  • Aiven (websearch) — site:aiven.io/careers "Engineer" OR "Backend" OR "Platform"
+  • Zendesk (websearch) — site:careers.zendesk.com "Engineer" OR "Backend" OR "Platform"
+  • MessageBird (websearch) — site:bird.com/careers "Engineer" OR "Backend" OR "Platform"
+  • Tiqets (websearch) — site:tiqets.com/jobs "Engineer" OR "Backend" OR "Platform"
+  • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
+  • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
+🟡 5 target(s) live but empty: Mistral AI, Lakera, Bolt, Toggl, Doist
+
+Network errors (1):
+  ✗ DeepSeek: fetch failed
+
+New offers:
+  + Nortal | Senior Python/AI Engineer | N/A
+  + Nortal | AI Platform Lead (Captain AI) | N/A
+  + Nortal | Data & AI Engineer | N/A
+  + Nortal | AI Engineer | N/A
+
+Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
+
+→ Run /career-ops pipeline to evaluate new offers.
+→ Share results and get help: https://discord.gg/8pRpHETxa4
+scan exit code: 0
