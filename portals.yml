@@ -1863,8 +1863,7 @@ tracked_companies:
     enabled: true
 
   - name: IN-anyscale
-    careers_url: https://job-boards.greenhouse.io/anyscale
-    api: https://boards-api.greenhouse.io/v1/boards/anyscale/jobs
+    careers_url: https://jobs.ashbyhq.com/anyscale
     enabled: true
 
   - name: IN-scaleai
@@ -1916,7 +1915,8 @@ tracked_companies:
     enabled: true
 
   - name: IN-groww
-    careers_url: https://jobs.lever.co/groww
+    careers_url: https://job-boards.greenhouse.io/groww
+    api: https://boards-api.greenhouse.io/v1/boards/groww/jobs
     enabled: true
 
   - name: IN-paytm
@@ -1928,7 +1928,8 @@ tracked_companies:
     enabled: false
 
   - name: IN-observeai
-    careers_url: https://jobs.lever.co/observeai
+    careers_url: https://job-boards.greenhouse.io/observeai
+    api: https://boards-api.greenhouse.io/v1/boards/observeai/jobs
     enabled: true
 
   - name: IN-yellowai
