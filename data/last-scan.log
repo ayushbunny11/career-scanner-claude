@@ -1,10 +1,10 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[06:17:49] scan: 25/148 sources done
-[06:17:50] scan: 50/148 sources done
-[06:17:51] scan: 75/148 sources done
-[06:17:52] scan: 100/148 sources done
-[06:17:53] scan: 125/148 sources done
-[06:18:47] scan: 148/148 sources done
+[08:14:03] scan: 25/148 sources done
+[08:14:04] scan: 50/148 sources done
+[08:14:04] scan: 75/148 sources done
+[08:14:05] scan: 100/148 sources done
+[08:14:06] scan: 125/148 sources done
+[08:15:01] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -12,12 +12,12 @@ Portal Scan — 2026-10-20
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23482
-Filtered by title:     19952 removed
-Filtered by location:  3442 removed
-Filtered by age:       71 removed
+Total jobs found:      23301
+Filtered by title:     19773 removed
+Filtered by location:  3441 removed
+Filtered by age:       72 removed
 Filtered by posted date: 0 removed
-Duplicates:            17 skipped
+Duplicates:            15 skipped
 New offers added:      0
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
