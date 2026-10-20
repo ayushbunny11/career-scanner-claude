@@ -48,6 +48,9 @@ jobs:
           echo "scan exit code: ${PIPESTATUS[0]}" | tee -a data/last-scan.log
           exit 0
 
+      - name: Build compact feed
+        run: node tools/make-feed.mjs
+
       - name: Commit results
         run: |
           git config user.name "career-scan-bot"
