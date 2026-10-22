@@ -52,4 +52,9 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://careers.allianz.com/global/en/job/106963/Senior-Databricks-AI-Architect-D3006 | Allianz | Senior Databricks & AI Architect_D3006 | India | posted: 2026-09-28
 - [ ] https://careers.allianz.com/global/en/job/106969/AI-Tech-Lead-Data-Engineering-D3006 | Allianz | AI Tech Lead (Data Engineering)_D3006 | India | posted: 2026-09-28
 
+- [ ] https://www.rubrik.com/company/careers/departments/job.8273808?gh_jid=8273808 | IN-rubrik | Senior AI API Platform Engineer | Bangalore, India | posted: 2026-10-21
+- [ ] https://www.rubrik.com/company/careers/departments/job.8273717?gh_jid=8273717 | IN-rubrik | Senior Applied AI Engineer | Bangalore | posted: 2026-10-21
+- [ ] https://jobs.ashbyhq.com/n8n/58ff2bb3-d077-4d99-9ce3-d60739f09e6a | n8n | Deployment Strategist / Remote / US East Coast | Boston · United States · California · Pennsylvania · Florida · New York · Massachusetts · Virginia · Georgia · Atlanta · Washington State · Colorado · Denver · New Jersey · Texas · Remote | posted: 2026-10-21
+- [ ] https://jobs.lever.co/paytm/e09a1fc4-47e2-4c49-b17e-6993b958d6ef | IN-paytm | Product Management - AI Payments | Noida, Uttar Pradesh | posted: 2026-10-21
+
 ## Processed

@@ -1,24 +1,25 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[08:18:55] scan: 25/148 sources done
-[08:18:57] scan: 50/148 sources done
-[08:18:58] scan: 75/148 sources done
-[08:18:59] scan: 100/148 sources done
-[08:19:00] scan: 125/148 sources done
-[08:19:49] scan: 148/148 sources done
+[08:21:27] scan: 25/148 sources done
+[08:21:28] scan: 50/148 sources done
+[08:21:29] scan: 75/148 sources done
+[08:21:30] scan: 100/148 sources done
+[08:21:31] scan: 125/148 sources done
+⚠️  greenhouse: IN-stripe /offices enrichment failed — This operation was aborted (keeping work-model-only locations)
+[08:22:22] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-10-21
+Portal Scan — 2026-10-22
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23572
-Filtered by title:     20025 removed
-Filtered by location:  3459 removed
-Filtered by age:       73 removed
+Total jobs found:      23410
+Filtered by title:     19935 removed
+Filtered by location:  3384 removed
+Filtered by age:       76 removed
 Filtered by posted date: 0 removed
-Duplicates:            15 skipped
-New offers added:      0
+Duplicates:            11 skipped
+New offers added:      4
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -43,6 +44,17 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
   • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
 🟡 5 target(s) live but empty: Mistral AI, Lakera, Bolt, Toggl, Doist
+
+Network errors (1):
+  ✗ DeepSeek: fetch failed
+
+New offers:
+  + IN-rubrik | Senior AI API Platform Engineer | Bangalore, India
+  + IN-rubrik | Senior Applied AI Engineer | Bangalore
+  + n8n | Deployment Strategist | Remote | US East Coast | Boston · United States · California · Pennsylvania · Florida · New York · Massachusetts · Virginia · Georgia · Atlanta · Washington State · Colorado · Denver · New Jersey · Texas · Remote
+  + IN-paytm | Product Management - AI Payments | Noida, Uttar Pradesh
+
+Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4
