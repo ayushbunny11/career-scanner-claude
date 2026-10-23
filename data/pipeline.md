@@ -57,4 +57,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.ashbyhq.com/n8n/58ff2bb3-d077-4d99-9ce3-d60739f09e6a | n8n | Deployment Strategist / Remote / US East Coast | Boston · United States · California · Pennsylvania · Florida · New York · Massachusetts · Virginia · Georgia · Atlanta · Washington State · Colorado · Denver · New Jersey · Texas · Remote | posted: 2026-10-21
 - [ ] https://jobs.lever.co/paytm/e09a1fc4-47e2-4c49-b17e-6993b958d6ef | IN-paytm | Product Management - AI Payments | Noida, Uttar Pradesh | posted: 2026-10-21
 
+- [ ] https://careers.allianz.com/global/en/job/106997/AI-Tech-Lead-Java-Web-3008 | Allianz | AI Tech Lead Java &Web_3008 | India | posted: 2026-10-20
+- [ ] https://careers.allianz.com/global/en/job/108595/Technical-Lead-AI-Developer-D-3451 | Allianz | Technical Lead_(AI Developer)D-3451 | Pune, Maharashtra, India, 411014 | posted: 2026-10-22
+
 ## Processed

@@ -1,25 +1,24 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[08:21:27] scan: 25/148 sources done
-[08:21:28] scan: 50/148 sources done
-[08:21:29] scan: 75/148 sources done
-[08:21:30] scan: 100/148 sources done
-[08:21:31] scan: 125/148 sources done
-⚠️  greenhouse: IN-stripe /offices enrichment failed — This operation was aborted (keeping work-model-only locations)
-[08:22:22] scan: 148/148 sources done
+[08:17:20] scan: 25/148 sources done
+[08:17:21] scan: 50/148 sources done
+[08:17:21] scan: 75/148 sources done
+[08:17:22] scan: 100/148 sources done
+[08:17:23] scan: 125/148 sources done
+[08:18:16] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-10-22
+Portal Scan — 2026-10-23
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23410
-Filtered by title:     19935 removed
-Filtered by location:  3384 removed
-Filtered by age:       76 removed
+Total jobs found:      23516
+Filtered by title:     19986 removed
+Filtered by location:  3437 removed
+Filtered by age:       80 removed
 Filtered by posted date: 0 removed
 Duplicates:            11 skipped
-New offers added:      4
+New offers added:      2
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -49,10 +48,8 @@ Network errors (1):
   ✗ DeepSeek: fetch failed
 
 New offers:
-  + IN-rubrik | Senior AI API Platform Engineer | Bangalore, India
-  + IN-rubrik | Senior Applied AI Engineer | Bangalore
-  + n8n | Deployment Strategist | Remote | US East Coast | Boston · United States · California · Pennsylvania · Florida · New York · Massachusetts · Virginia · Georgia · Atlanta · Washington State · Colorado · Denver · New Jersey · Texas · Remote
-  + IN-paytm | Product Management - AI Payments | Noida, Uttar Pradesh
+  + Allianz | AI Tech Lead Java &Web_3008 | India
+  + Allianz | Technical Lead_(AI Developer)D-3451 | Pune, Maharashtra, India, 411014
 
 Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
 
