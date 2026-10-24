@@ -1,24 +1,25 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[08:17:20] scan: 25/148 sources done
-[08:17:21] scan: 50/148 sources done
-[08:17:21] scan: 75/148 sources done
-[08:17:22] scan: 100/148 sources done
-[08:17:23] scan: 125/148 sources done
-[08:18:16] scan: 148/148 sources done
+[07:55:19] scan: 25/148 sources done
+[07:55:20] scan: 50/148 sources done
+[07:55:20] scan: 75/148 sources done
+[07:55:21] scan: 100/148 sources done
+[07:55:22] scan: 125/148 sources done
+⚠️  greenhouse: IN-stripe /offices enrichment failed — This operation was aborted (keeping work-model-only locations)
+[07:56:08] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-10-23
+Portal Scan — 2026-10-24
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23516
-Filtered by title:     19986 removed
-Filtered by location:  3437 removed
-Filtered by age:       80 removed
+Total jobs found:      23718
+Filtered by title:     20163 removed
+Filtered by location:  3462 removed
+Filtered by age:       81 removed
 Filtered by posted date: 0 removed
-Duplicates:            11 skipped
-New offers added:      2
+Duplicates:            12 skipped
+New offers added:      0
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -42,16 +43,11 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • Tiqets (websearch) — site:tiqets.com/jobs "Engineer" OR "Backend" OR "Platform"
   • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
   • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
-🟡 5 target(s) live but empty: Mistral AI, Lakera, Bolt, Toggl, Doist
 
-Network errors (1):
-  ✗ DeepSeek: fetch failed
-
-New offers:
-  + Allianz | AI Tech Lead Java &Web_3008 | India
-  + Allianz | Technical Lead_(AI Developer)D-3451 | Pune, Maharashtra, India, 411014
-
-Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
+🚨 FIX NEEDED: 1 target(s) have been unreachable for 3+ runs:
+   DeepSeek
+   Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
+🟡 6 target(s) live but empty: Mistral AI, Qonto, Lakera, Bolt, Toggl, Doist
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4
