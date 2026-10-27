@@ -1,25 +1,24 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[08:34:53] scan: 25/148 sources done
-[08:34:54] scan: 50/148 sources done
-[08:34:55] scan: 75/148 sources done
-[08:34:56] scan: 100/148 sources done
-[08:34:57] scan: 125/148 sources done
-  ⚠ feishu-jobs: keyword "大模型" page 4 failed (This operation was aborted) — keeping the 4784 jobs collected so far
-[08:35:38] scan: 148/148 sources done
+[08:41:44] scan: 25/148 sources done
+[08:41:45] scan: 50/148 sources done
+[08:41:46] scan: 75/148 sources done
+[08:41:47] scan: 100/148 sources done
+[08:41:48] scan: 125/148 sources done
+[08:42:43] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-10-26
+Portal Scan — 2026-10-27
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      22881
-Filtered by title:     19523 removed
-Filtered by location:  3269 removed
-Filtered by age:       77 removed
+Total jobs found:      23270
+Filtered by title:     19753 removed
+Filtered by location:  3424 removed
+Filtered by age:       79 removed
 Filtered by posted date: 0 removed
-Duplicates:            12 skipped
-New offers added:      0
+Duplicates:            9 skipped
+New offers added:      5
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -43,11 +42,16 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • Tiqets (websearch) — site:tiqets.com/jobs "Engineer" OR "Backend" OR "Platform"
   • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
   • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
+🟡 6 target(s) live but empty: Mistral AI, Qonto, Lakera, Bolt, Toggl, Doist
 
-🚨 FIX NEEDED: 1 target(s) have been unreachable for 3+ runs:
-   DeepSeek
-   Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
-🟡 6 target(s) live but empty: Mistral AI, Lakera, Qonto, Bolt, Toggl, Doist
+New offers:
+  + IN-razorpaysoftwareprivatelimited | AI Builder | Bengaluru
+  + IN-glance | Applied Scientist III - Recommendations | Bangalore
+  + IN-glance | Applied Scientist II - Recommendation | Bangalore
+  + IN-turing | Senior Full-Stack Engineer - Enterprise AI  | Mumbai, Maharashtra, India
+  + IN-atlan | AI Native Builder/Architect | India · Remote
+
+Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4

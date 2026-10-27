@@ -60,4 +60,10 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://careers.allianz.com/global/en/job/106997/AI-Tech-Lead-Java-Web-3008 | Allianz | AI Tech Lead Java &Web_3008 | India | posted: 2026-10-20
 - [ ] https://careers.allianz.com/global/en/job/108595/Technical-Lead-AI-Developer-D-3451 | Allianz | Technical Lead_(AI Developer)D-3451 | Pune, Maharashtra, India, 411014 | posted: 2026-10-22
 
+- [ ] https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4744950005 | IN-razorpaysoftwareprivatelimited | AI Builder | Bengaluru | posted: 2026-10-27
+- [ ] https://job-boards.greenhouse.io/glance/jobs/8054915 | IN-glance | Applied Scientist III - Recommendations | Bangalore | posted: 2026-10-27
+- [ ] https://job-boards.greenhouse.io/glance/jobs/7528898 | IN-glance | Applied Scientist II - Recommendation | Bangalore | posted: 2026-10-27
+- [ ] https://job-boards.greenhouse.io/turing/jobs/6235517004 | IN-turing | Senior Full-Stack Engineer - Enterprise AI | Mumbai, Maharashtra, India | posted: 2026-10-27
+- [ ] https://jobs.ashbyhq.com/atlan/c6bb032c-6ac8-4b59-915c-d59b6f3a86f8 | IN-atlan | AI Native Builder/Architect | India · Remote | posted: 2026-10-26
+
 ## Processed
