@@ -66,4 +66,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/turing/jobs/6235517004 | IN-turing | Senior Full-Stack Engineer - Enterprise AI | Mumbai, Maharashtra, India | posted: 2026-10-27
 - [ ] https://jobs.ashbyhq.com/atlan/c6bb032c-6ac8-4b59-915c-d59b6f3a86f8 | IN-atlan | AI Native Builder/Architect | India · Remote | posted: 2026-10-26
 
+- [ ] https://www.rubrik.com/company/careers/departments/job.8318044?gh_jid=8318044 | IN-rubrik | Sr AI Engineer, Agentic Systems | Bengaluru, India | posted: 2026-10-28
+- [ ] https://jobs.elastic.co/jobs?gh_jid=8314336&gh_jid=8314336 | IN-elastic | AI Tool Admin | Bangalore, India | posted: 2026-10-27
+- [ ] https://job-boards.greenhouse.io/glance/jobs/7528890 | IN-glance | Applied Scientist III - Recommendation Systems | Bangalore | posted: 2026-10-27
+
 ## Processed
