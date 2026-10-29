@@ -70,4 +70,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.elastic.co/jobs?gh_jid=8314336&gh_jid=8314336 | IN-elastic | AI Tool Admin | Bangalore, India | posted: 2026-10-27
 - [ ] https://job-boards.greenhouse.io/glance/jobs/7528890 | IN-glance | Applied Scientist III - Recommendation Systems | Bangalore | posted: 2026-10-27
 
+- [ ] https://job-boards.greenhouse.io/celonis/jobs/7665962003?gh_jid=7665962003 | Celonis | Associate Deployment Engineer - Galaxy Graduate Program | Bangalore, India | posted: 2026-10-28
+
 ## Processed
