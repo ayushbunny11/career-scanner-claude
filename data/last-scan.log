@@ -1,25 +1,24 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[09:27:40] scan: 25/148 sources done
-[09:27:41] scan: 50/148 sources done
-[09:27:41] scan: 75/148 sources done
-[09:27:42] scan: 100/148 sources done
-[09:27:44] scan: 125/148 sources done
-⚠️  greenhouse: IN-stripe /offices enrichment failed — This operation was aborted (keeping work-model-only locations)
-[09:28:38] scan: 148/148 sources done
+[09:40:36] scan: 25/148 sources done
+[09:40:37] scan: 50/148 sources done
+[09:40:38] scan: 75/148 sources done
+[09:40:39] scan: 100/148 sources done
+[09:40:40] scan: 125/148 sources done
+[09:41:33] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-10-29
+Portal Scan — 2026-10-30
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23486
-Filtered by title:     19955 removed
-Filtered by location:  3436 removed
-Filtered by age:       77 removed
+Total jobs found:      23409
+Filtered by title:     19927 removed
+Filtered by location:  3388 removed
+Filtered by age:       76 removed
 Filtered by posted date: 0 removed
-Duplicates:            17 skipped
-New offers added:      1
+Duplicates:            18 skipped
+New offers added:      0
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -43,15 +42,7 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • Tiqets (websearch) — site:tiqets.com/jobs "Engineer" OR "Backend" OR "Platform"
   • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
   • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
-🟡 6 target(s) live but empty: Lakera, Qonto, Mistral AI, Bolt, Toggl, Doist
-
-Network errors (1):
-  ✗ DeepSeek: fetch failed
-
-New offers:
-  + Celonis | Associate Deployment Engineer - Galaxy Graduate Program | Bangalore, India
-
-Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
+🟡 6 target(s) live but empty: Mistral AI, Qonto, Lakera, Bolt, Toggl, Doist
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4
