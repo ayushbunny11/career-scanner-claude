@@ -1,23 +1,23 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[09:40:36] scan: 25/148 sources done
-[09:40:37] scan: 50/148 sources done
-[09:40:38] scan: 75/148 sources done
-[09:40:39] scan: 100/148 sources done
-[09:40:40] scan: 125/148 sources done
-[09:41:33] scan: 148/148 sources done
+[09:20:19] scan: 25/148 sources done
+[09:20:20] scan: 50/148 sources done
+[09:20:21] scan: 75/148 sources done
+[09:20:22] scan: 100/148 sources done
+[09:20:25] scan: 125/148 sources done
+[09:21:07] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-10-30
+Portal Scan — 2026-10-31
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23409
-Filtered by title:     19927 removed
-Filtered by location:  3388 removed
-Filtered by age:       76 removed
+Total jobs found:      23400
+Filtered by title:     19935 removed
+Filtered by location:  3374 removed
+Filtered by age:       74 removed
 Filtered by posted date: 0 removed
-Duplicates:            18 skipped
+Duplicates:            17 skipped
 New offers added:      0
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
@@ -42,7 +42,11 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • Tiqets (websearch) — site:tiqets.com/jobs "Engineer" OR "Backend" OR "Platform"
   • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
   • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
-🟡 6 target(s) live but empty: Mistral AI, Qonto, Lakera, Bolt, Toggl, Doist
+🟡 6 target(s) live but empty: Lakera, Qonto, Bolt, Toggl, Doist, Mistral AI
+
+Network errors (2):
+  ✗ DeepSeek: fetch failed
+  ✗ Hotjar: This operation was aborted
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4
