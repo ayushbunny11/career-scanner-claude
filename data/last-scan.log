@@ -1,24 +1,25 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[10:08:25] scan: 25/148 sources done
-[10:08:25] scan: 50/148 sources done
-[10:08:27] scan: 75/148 sources done
-[10:08:27] scan: 100/148 sources done
-[10:08:28] scan: 125/148 sources done
-[10:09:14] scan: 148/148 sources done
+[10:37:59] scan: 25/148 sources done
+[10:38:00] scan: 50/148 sources done
+[10:38:01] scan: 75/148 sources done
+[10:38:02] scan: 100/148 sources done
+[10:38:03] scan: 125/148 sources done
+  ⚠ feishu-jobs: keyword "AI" page 2 failed (This operation was aborted) — keeping the 100 jobs collected so far
+[10:38:19] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-01
+Portal Scan — 2026-11-02
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23529
-Filtered by title:     20027 removed
-Filtered by location:  3410 removed
-Filtered by age:       75 removed
+Total jobs found:      18322
+Filtered by title:     16834 removed
+Filtered by location:  1399 removed
+Filtered by age:       72 removed
 Filtered by posted date: 0 removed
-Duplicates:            17 skipped
-New offers added:      0
+Duplicates:            15 skipped
+New offers added:      2
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -42,7 +43,13 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • Tiqets (websearch) — site:tiqets.com/jobs "Engineer" OR "Backend" OR "Platform"
   • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
   • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
-🟡 6 target(s) live but empty: Mistral AI, Lakera, Bolt, Toggl, Doist, Qonto
+🟡 6 target(s) live but empty: Qonto, Lakera, Mistral AI, Bolt, Toggl, Doist
+
+New offers:
+  + IN-databricks | Evergreen - AI Engineer, AI FDE | Bengaluru, India
+  + IN-databricks | Sr. Software Engineer- Databricks AI | Bengaluru, India
+
+Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4

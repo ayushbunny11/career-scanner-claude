@@ -72,4 +72,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/celonis/jobs/7665962003?gh_jid=7665962003 | Celonis | Associate Deployment Engineer - Galaxy Graduate Program | Bangalore, India | posted: 2026-10-28
 
+- [ ] https://databricks.com/company/careers/open-positions/job?gh_jid=8878946002 | IN-databricks | Evergreen - AI Engineer, AI FDE | Bengaluru, India | posted: 2026-11-02
+- [ ] https://databricks.com/company/careers/open-positions/job?gh_jid=8924868002 | IN-databricks | Sr. Software Engineer- Databricks AI | Bengaluru, India | posted: 2026-11-02
+
 ## Processed
