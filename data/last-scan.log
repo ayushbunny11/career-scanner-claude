@@ -1,24 +1,24 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[10:29:44] scan: 25/148 sources done
-[10:29:45] scan: 50/148 sources done
-[10:29:46] scan: 75/148 sources done
-[10:29:47] scan: 100/148 sources done
-[10:29:48] scan: 125/148 sources done
-[10:30:53] scan: 148/148 sources done
+[10:32:25] scan: 25/148 sources done
+[10:32:25] scan: 50/148 sources done
+[10:32:26] scan: 75/148 sources done
+[10:32:27] scan: 100/148 sources done
+[10:32:28] scan: 125/148 sources done
+[10:33:19] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-03
+Portal Scan — 2026-11-04
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23296
-Filtered by title:     19887 removed
-Filtered by location:  3315 removed
+Total jobs found:      23386
+Filtered by title:     19946 removed
+Filtered by location:  3343 removed
 Filtered by age:       75 removed
 Filtered by posted date: 0 removed
-Duplicates:            18 skipped
-New offers added:      1
+Duplicates:            20 skipped
+New offers added:      2
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -42,10 +42,14 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • Tiqets (websearch) — site:tiqets.com/jobs "Engineer" OR "Backend" OR "Platform"
   • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
   • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
-🟡 6 target(s) live but empty: Mistral AI, Qonto, Lakera, Bolt, Toggl, Doist
+🟡 6 target(s) live but empty: Mistral AI, Lakera, Bolt, Toggl, Qonto, Doist
+
+Network errors (1):
+  ✗ DeepSeek: fetch failed
 
 New offers:
-  + Allianz | PIM Agent | India
+  + IN-zscaler | Sr. Software Development Engineer - Java/ Agentic AI/ Big Data | Bangalore, IND
+  + Allianz | Associate Business Consultant-AI Hyper Automation | Pune, Maharashtra, India, 411014
 
 Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
 

@@ -77,4 +77,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://careers.allianz.com/global/en/job/105365/PIM-Agent | Allianz | PIM Agent | India | posted: 2026-11-02
 
+- [ ] https://job-boards.greenhouse.io/zscaler/jobs/5267221007 | IN-zscaler | Sr. Software Development Engineer - Java/ Agentic AI/ Big Data | Bangalore, IND | posted: 2026-11-04
+- [ ] https://careers.allianz.com/global/en/job/103607/Associate-Business-Consultant-AI-Hyper-Automation | Allianz | Associate Business Consultant-AI Hyper Automation | Pune, Maharashtra, India, 411014 | posted: 2026-11-04
+
 ## Processed
