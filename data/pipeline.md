@@ -80,4 +80,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/zscaler/jobs/5267221007 | IN-zscaler | Sr. Software Development Engineer - Java/ Agentic AI/ Big Data | Bangalore, IND | posted: 2026-11-04
 - [ ] https://careers.allianz.com/global/en/job/103607/Associate-Business-Consultant-AI-Hyper-Automation | Allianz | Associate Business Consultant-AI Hyper Automation | Pune, Maharashtra, India, 411014 | posted: 2026-11-04
 
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5461252008 | Anthropic | Applied AI Architect ( Global Customers) | Bangalore, India | posted: 2026-11-03
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4747460005 | Glean | Solutions Engineer (EMEA Shift) | Bangalore, India | posted: 2026-11-04
+- [ ] https://jobs.ashbyhq.com/perk/69fbef57-2e62-4c92-9ce1-7c0af6ecb5a8 | Travelperk | Overnight Customer Care Agent - AmTrav (Remote) | Chicago · United States · Dallas, Texas · Dallas · US · Orlando, Florida · Orlando · Remote | 57824 USD | posted: 2026-11-04
+
 ## Processed

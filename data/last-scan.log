@@ -1,24 +1,24 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[10:32:25] scan: 25/148 sources done
-[10:32:25] scan: 50/148 sources done
-[10:32:26] scan: 75/148 sources done
-[10:32:27] scan: 100/148 sources done
-[10:32:28] scan: 125/148 sources done
-[10:33:19] scan: 148/148 sources done
+[10:25:34] scan: 25/148 sources done
+[10:25:35] scan: 50/148 sources done
+[10:25:36] scan: 75/148 sources done
+[10:25:37] scan: 100/148 sources done
+[10:25:38] scan: 125/148 sources done
+[10:26:25] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-04
+Portal Scan — 2026-11-05
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23386
-Filtered by title:     19946 removed
-Filtered by location:  3343 removed
-Filtered by age:       75 removed
+Total jobs found:      23322
+Filtered by title:     19941 removed
+Filtered by location:  3281 removed
+Filtered by age:       79 removed
 Filtered by posted date: 0 removed
-Duplicates:            20 skipped
-New offers added:      2
+Duplicates:            18 skipped
+New offers added:      3
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -42,14 +42,17 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • Tiqets (websearch) — site:tiqets.com/jobs "Engineer" OR "Backend" OR "Platform"
   • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
   • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
-🟡 6 target(s) live but empty: Mistral AI, Lakera, Bolt, Toggl, Qonto, Doist
+
+⚠️  1 target(s) unreachable (slug?): Mistral AI — run: node verify-portals.mjs
+🟡 5 target(s) live but empty: Lakera, Bolt, Toggl, Doist, Qonto
 
 Network errors (1):
   ✗ DeepSeek: fetch failed
 
 New offers:
-  + IN-zscaler | Sr. Software Development Engineer - Java/ Agentic AI/ Big Data | Bangalore, IND
-  + Allianz | Associate Business Consultant-AI Hyper Automation | Pune, Maharashtra, India, 411014
+  + Anthropic | Applied AI Architect ( Global Customers) | Bangalore, India
+  + Glean | Solutions Engineer (EMEA Shift)  | Bangalore, India
+  + Travelperk | Overnight Customer Care Agent - AmTrav (Remote) | Chicago · United States · Dallas, Texas · Dallas · US · Orlando, Florida · Orlando · Remote
 
 Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
 
