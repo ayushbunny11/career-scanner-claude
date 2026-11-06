@@ -84,4 +84,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4747460005 | Glean | Solutions Engineer (EMEA Shift) | Bangalore, India | posted: 2026-11-04
 - [ ] https://jobs.ashbyhq.com/perk/69fbef57-2e62-4c92-9ce1-7c0af6ecb5a8 | Travelperk | Overnight Customer Care Agent - AmTrav (Remote) | Chicago · United States · Dallas, Texas · Dallas · US · Orlando, Florida · Orlando · Remote | 57824 USD | posted: 2026-11-04
 
+- [ ] https://jobs.ashbyhq.com/openai/2c531790-726c-4d39-b3bd-900c59a09a4d | IN-openai | Applied AI Delivery Lead - Remote in AMER | US - Remote · United States | 234000-335000 USD | posted: 2026-11-05
+
 ## Processed
