@@ -1,24 +1,24 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[10:27:05] scan: 25/148 sources done
-[10:27:06] scan: 50/148 sources done
-[10:27:07] scan: 75/148 sources done
-[10:27:08] scan: 100/148 sources done
-[10:27:09] scan: 125/148 sources done
-[10:27:51] scan: 148/148 sources done
+[09:39:58] scan: 25/148 sources done
+[09:39:58] scan: 50/148 sources done
+[09:39:59] scan: 75/148 sources done
+[09:40:00] scan: 100/148 sources done
+[09:40:01] scan: 125/148 sources done
+[09:41:00] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-06
+Portal Scan — 2026-11-07
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23399
-Filtered by title:     19949 removed
-Filtered by location:  3351 removed
-Filtered by age:       78 removed
+Total jobs found:      23636
+Filtered by title:     20159 removed
+Filtered by location:  3378 removed
+Filtered by age:       76 removed
 Filtered by posted date: 0 removed
-Duplicates:            20 skipped
-New offers added:      1
+Duplicates:            23 skipped
+New offers added:      0
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -43,13 +43,15 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
   • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
 
-⚠️  1 target(s) unreachable (slug?): Mistral AI — run: node verify-portals.mjs
-🟡 5 target(s) live but empty: Qonto, Lakera, Bolt, Toggl, Doist
+🚨 FIX NEEDED: 1 target(s) have been unreachable for 3+ runs:
+   Mistral AI
+   Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
 
-New offers:
-  + IN-openai | Applied AI Delivery Lead - Remote in AMER | US - Remote · United States
+⚠️  1 target(s) unreachable (slug?): Parloa — run: node verify-portals.mjs
+🟡 6 target(s) live but empty: GetYourGuide, Qonto, Lakera, Bolt, Toggl, Doist
 
-Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
+Network errors (1):
+  ✗ DeepSeek: fetch failed
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4
