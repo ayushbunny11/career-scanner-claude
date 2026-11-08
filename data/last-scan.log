@@ -1,21 +1,21 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[09:39:58] scan: 25/148 sources done
-[09:39:58] scan: 50/148 sources done
-[09:39:59] scan: 75/148 sources done
-[09:40:00] scan: 100/148 sources done
-[09:40:01] scan: 125/148 sources done
-[09:41:00] scan: 148/148 sources done
+[09:54:18] scan: 25/148 sources done
+[09:54:19] scan: 50/148 sources done
+[09:54:20] scan: 75/148 sources done
+[09:54:20] scan: 100/148 sources done
+[09:54:21] scan: 125/148 sources done
+[09:55:09] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-07
+Portal Scan — 2026-11-08
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23636
-Filtered by title:     20159 removed
-Filtered by location:  3378 removed
-Filtered by age:       76 removed
+Total jobs found:      23454
+Filtered by title:     19986 removed
+Filtered by location:  3368 removed
+Filtered by age:       77 removed
 Filtered by posted date: 0 removed
 Duplicates:            23 skipped
 New offers added:      0
