@@ -1,23 +1,23 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[09:54:18] scan: 25/148 sources done
-[09:54:19] scan: 50/148 sources done
-[09:54:20] scan: 75/148 sources done
-[09:54:20] scan: 100/148 sources done
-[09:54:21] scan: 125/148 sources done
-[09:55:09] scan: 148/148 sources done
+[10:57:38] scan: 25/148 sources done
+[10:57:39] scan: 50/148 sources done
+[10:57:40] scan: 75/148 sources done
+[10:57:41] scan: 100/148 sources done
+[10:57:42] scan: 125/148 sources done
+[10:58:40] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-08
+Portal Scan — 2026-11-09
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23454
-Filtered by title:     19986 removed
-Filtered by location:  3368 removed
-Filtered by age:       77 removed
+Total jobs found:      23359
+Filtered by title:     19925 removed
+Filtered by location:  3337 removed
+Filtered by age:       78 removed
 Filtered by posted date: 0 removed
-Duplicates:            23 skipped
+Duplicates:            19 skipped
 New offers added:      0
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
@@ -43,15 +43,10 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
   • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
 
-🚨 FIX NEEDED: 1 target(s) have been unreachable for 3+ runs:
-   Mistral AI
+🚨 FIX NEEDED: 3 target(s) have been unreachable for 3+ runs:
+   Parloa, Mistral AI, DeepSeek
    Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
-
-⚠️  1 target(s) unreachable (slug?): Parloa — run: node verify-portals.mjs
-🟡 6 target(s) live but empty: GetYourGuide, Qonto, Lakera, Bolt, Toggl, Doist
-
-Network errors (1):
-  ✗ DeepSeek: fetch failed
+🟡 6 target(s) live but empty: GetYourGuide, Lakera, Qonto, Bolt, Toggl, Doist
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4
