@@ -1,23 +1,24 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[10:57:38] scan: 25/148 sources done
-[10:57:39] scan: 50/148 sources done
-[10:57:40] scan: 75/148 sources done
-[10:57:41] scan: 100/148 sources done
-[10:57:42] scan: 125/148 sources done
-[10:58:40] scan: 148/148 sources done
+[10:49:15] scan: 25/148 sources done
+[10:49:16] scan: 50/148 sources done
+[10:49:18] scan: 75/148 sources done
+[10:49:18] scan: 100/148 sources done
+[10:49:20] scan: 125/148 sources done
+  ⚠ feishu-jobs: keyword "AI" page 2 failed (This operation was aborted) — keeping the 100 jobs collected so far
+[10:49:40] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-09
+Portal Scan — 2026-11-10
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23359
-Filtered by title:     19925 removed
-Filtered by location:  3337 removed
-Filtered by age:       78 removed
+Total jobs found:      18204
+Filtered by title:     16726 removed
+Filtered by location:  1382 removed
+Filtered by age:       80 removed
 Filtered by posted date: 0 removed
-Duplicates:            19 skipped
+Duplicates:            16 skipped
 New offers added:      0
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
@@ -43,10 +44,10 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
   • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
 
-🚨 FIX NEEDED: 3 target(s) have been unreachable for 3+ runs:
-   Parloa, Mistral AI, DeepSeek
+🚨 FIX NEEDED: 2 target(s) have been unreachable for 3+ runs:
+   Parloa, Mistral AI
    Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
-🟡 6 target(s) live but empty: GetYourGuide, Lakera, Qonto, Bolt, Toggl, Doist
+🟡 6 target(s) live but empty: GetYourGuide, Lakera, Bolt, Qonto, Toggl, Doist
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4
