@@ -86,4 +86,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/openai/2c531790-726c-4d39-b3bd-900c59a09a4d | IN-openai | Applied AI Delivery Lead - Remote in AMER | US - Remote · United States | 234000-335000 USD | posted: 2026-11-05
 
+- [ ] https://job-boards.greenhouse.io/zscaler/jobs/5278563007 | IN-zscaler | Senior AI Platform Engineer | Pune, IND | posted: 2026-11-11
+
 ## Processed
