@@ -4428,3 +4428,151 @@ timestamp	company	status
 2026-11-11T10:25:54.017Z	Inngest	reachable
 2026-11-11T10:25:54.017Z	PlanetScale	reachable
 2026-11-11T10:25:54.017Z	SolidJobs IT	reachable
+2026-11-12T10:42:38.793Z	IN-databricks	reachable
+2026-11-12T10:42:38.793Z	IN-cloudflare	reachable
+2026-11-12T10:42:38.793Z	IN-elastic	reachable
+2026-11-12T10:42:38.793Z	IN-gitlab	reachable
+2026-11-12T10:42:38.793Z	IN-newrelic	reachable
+2026-11-12T10:42:38.793Z	IN-mongodb	reachable
+2026-11-12T10:42:38.793Z	IN-rubrik	reachable
+2026-11-12T10:42:38.793Z	IN-netskope	reachable
+2026-11-12T10:42:38.793Z	IN-zscaler	reachable
+2026-11-12T10:42:38.793Z	IN-stripe	reachable
+2026-11-12T10:42:38.793Z	IN-anyscale	reachable
+2026-11-12T10:42:38.793Z	IN-scaleai	reachable
+2026-11-12T10:42:38.793Z	IN-razorpaysoftwareprivatelimited	reachable
+2026-11-12T10:42:38.793Z	IN-samsara	reachable
+2026-11-12T10:42:38.793Z	IN-okta	reachable
+2026-11-12T10:42:38.793Z	IN-datadog	reachable
+2026-11-12T10:42:38.793Z	IN-cred	reachable
+2026-11-12T10:42:38.793Z	IN-meesho	reachable
+2026-11-12T10:42:38.793Z	IN-groww	reachable
+2026-11-12T10:42:38.793Z	IN-paytm	reachable
+2026-11-12T10:42:38.793Z	IN-observeai	reachable
+2026-11-12T10:42:38.793Z	IN-zeta	reachable
+2026-11-12T10:42:38.793Z	IN-sarvam	reachable
+2026-11-12T10:42:38.793Z	IN-tekion	reachable
+2026-11-12T10:42:38.793Z	IN-inmobi	reachable
+2026-11-12T10:42:38.793Z	IN-fivetran	reachable
+2026-11-12T10:42:38.793Z	IN-glance	reachable
+2026-11-12T10:42:38.793Z	IN-hackerrank	reachable
+2026-11-12T10:42:38.793Z	IN-mindtickle	reachable
+2026-11-12T10:42:38.793Z	IN-twilio	reachable
+2026-11-12T10:42:38.793Z	IN-druva	reachable
+2026-11-12T10:42:38.793Z	IN-nebius	reachable
+2026-11-12T10:42:38.793Z	IN-clickhouse	reachable
+2026-11-12T10:42:38.793Z	IN-coinbase	reachable
+2026-11-12T10:42:38.793Z	IN-singlestore	reachable
+2026-11-12T10:42:38.793Z	IN-coursera	reachable
+2026-11-12T10:42:38.793Z	IN-snowflake	reachable
+2026-11-12T10:42:38.793Z	IN-openai	reachable
+2026-11-12T10:42:38.793Z	IN-cerebras	reachable
+2026-11-12T10:42:38.793Z	IN-turing	reachable
+2026-11-12T10:42:38.793Z	IN-airbnb	reachable
+2026-11-12T10:42:38.793Z	IN-sumologic	reachable
+2026-11-12T10:42:38.793Z	IN-starburst	reachable
+2026-11-12T10:42:38.793Z	IN-yugabyte	reachable
+2026-11-12T10:42:38.793Z	IN-atlan	reachable
+2026-11-12T10:42:38.793Z	IN-togetherai	reachable
+2026-11-12T10:42:38.793Z	IN-oyster	reachable
+2026-11-12T10:42:38.793Z	IN-fastly	reachable
+2026-11-12T10:42:38.793Z	IN-redis	reachable
+2026-11-12T10:42:38.793Z	IN-lambda	reachable
+2026-11-12T10:42:38.793Z	IN-vercel	reachable
+2026-11-12T10:42:38.793Z	IN-figma	reachable
+2026-11-12T10:42:38.793Z	IN-notion	reachable
+2026-11-12T10:42:38.793Z	IN-cribl	reachable
+2026-11-12T10:42:38.793Z	Anthropic	reachable
+2026-11-12T10:42:38.793Z	ByteDance	reachable
+2026-11-12T10:42:38.793Z	DeepSeek	reachable
+2026-11-12T10:42:38.793Z	PolyAI	reachable
+2026-11-12T10:42:38.793Z	Parloa	slug_gone
+2026-11-12T10:42:38.793Z	Intercom	reachable
+2026-11-12T10:42:38.793Z	Hume AI	reachable
+2026-11-12T10:42:38.793Z	ElevenLabs	reachable
+2026-11-12T10:42:38.793Z	Deepgram	reachable
+2026-11-12T10:42:38.793Z	Vapi	reachable
+2026-11-12T10:42:38.793Z	Bland AI	reachable
+2026-11-12T10:42:38.793Z	Retool	reachable
+2026-11-12T10:42:38.793Z	Gem	reachable
+2026-11-12T10:42:38.793Z	Airtable	reachable
+2026-11-12T10:42:38.793Z	Vercel	reachable
+2026-11-12T10:42:38.793Z	Temporal	reachable
+2026-11-12T10:42:38.793Z	Arize AI	reachable
+2026-11-12T10:42:38.793Z	RunPod	reachable
+2026-11-12T10:42:38.793Z	Weights & Biases (CoreWeave)	reachable
+2026-11-12T10:42:38.793Z	Glean	reachable
+2026-11-12T10:42:38.793Z	Sierra	reachable
+2026-11-12T10:42:38.793Z	Decagon	reachable
+2026-11-12T10:42:38.793Z	Speechmatics	reachable
+2026-11-12T10:42:38.793Z	n8n	reachable
+2026-11-12T10:42:38.793Z	Zapier	reachable
+2026-11-12T10:42:38.793Z	Boomi	reachable
+2026-11-12T10:42:38.793Z	Cohere	reachable
+2026-11-12T10:42:38.793Z	LangChain	reachable
+2026-11-12T10:42:38.793Z	Pinecone	reachable
+2026-11-12T10:42:38.793Z	Mistral AI	slug_gone
+2026-11-12T10:42:38.793Z	Palantir	reachable
+2026-11-12T10:42:38.793Z	Later	reachable
+2026-11-12T10:42:38.793Z	Safari AI	reachable
+2026-11-12T10:42:38.793Z	Hootsuite	reachable
+2026-11-12T10:42:38.793Z	Klue	reachable
+2026-11-12T10:42:38.793Z	Glacis AI	reachable
+2026-11-12T10:42:38.793Z	Semios	reachable
+2026-11-12T10:42:38.793Z	Ratehub	reachable
+2026-11-12T10:42:38.793Z	Attio	reachable
+2026-11-12T10:42:38.793Z	Tinybird	reachable
+2026-11-12T10:42:38.793Z	Travelperk	reachable
+2026-11-12T10:42:38.793Z	Channable	reachable
+2026-11-12T10:42:38.793Z	Shiji Group	reachable
+2026-11-12T10:42:38.793Z	Aleph Alpha	reachable
+2026-11-12T10:42:38.793Z	DeepL	reachable
+2026-11-12T10:42:38.793Z	Black Forest Labs	reachable
+2026-11-12T10:42:38.793Z	Helsing	reachable
+2026-11-12T10:42:38.793Z	Celonis	reachable
+2026-11-12T10:42:38.793Z	Contentful	reachable
+2026-11-12T10:42:38.793Z	GetYourGuide	empty
+2026-11-12T10:42:38.793Z	HelloFresh	reachable
+2026-11-12T10:42:38.793Z	Allianz	reachable
+2026-11-12T10:42:38.793Z	N26	reachable
+2026-11-12T10:42:38.793Z	Trade Republic	reachable
+2026-11-12T10:42:38.793Z	SumUp	reachable
+2026-11-12T10:42:38.793Z	Qonto	empty
+2026-11-12T10:42:38.793Z	Forto	reachable
+2026-11-12T10:42:38.793Z	Nortal	reachable
+2026-11-12T10:42:38.793Z	Lakera	empty
+2026-11-12T10:42:38.793Z	Scandit	reachable
+2026-11-12T10:42:38.793Z	Cradle	reachable
+2026-11-12T10:42:38.793Z	Hugging Face	reachable
+2026-11-12T10:42:38.793Z	Photoroom	reachable
+2026-11-12T10:42:38.793Z	Pigment	reachable
+2026-11-12T10:42:38.793Z	Diabolocom	reachable
+2026-11-12T10:42:38.793Z	Wayve	reachable
+2026-11-12T10:42:38.793Z	Isomorphic Labs	reachable
+2026-11-12T10:42:38.793Z	PhysicsX	reachable
+2026-11-12T10:42:38.793Z	Stability AI	reachable
+2026-11-12T10:42:38.793Z	Synthesia	reachable
+2026-11-12T10:42:38.793Z	Faculty	reachable
+2026-11-12T10:42:38.793Z	Causaly	reachable
+2026-11-12T10:42:38.793Z	Lovable	reachable
+2026-11-12T10:42:38.793Z	Legora	reachable
+2026-11-12T10:42:38.793Z	Spotify	reachable
+2026-11-12T10:42:38.793Z	Bolt	empty
+2026-11-12T10:42:38.793Z	BMW Group	reachable
+2026-11-12T10:42:38.793Z	CARIAD (Volkswagen)	reachable
+2026-11-12T10:42:38.793Z	Mollie	reachable
+2026-11-12T10:42:38.793Z	Hotjar	reachable
+2026-11-12T10:42:38.793Z	Toggl	empty
+2026-11-12T10:42:38.793Z	Doist	empty
+2026-11-12T10:42:38.793Z	Corti	reachable
+2026-11-12T10:42:38.793Z	Pleo	reachable
+2026-11-12T10:42:38.793Z	Amplemarket	reachable
+2026-11-12T10:42:38.793Z	Perplexity	reachable
+2026-11-12T10:42:38.793Z	Clay Labs	reachable
+2026-11-12T10:42:38.793Z	WorkOS	reachable
+2026-11-12T10:42:38.793Z	Supabase	reachable
+2026-11-12T10:42:38.793Z	Resend	reachable
+2026-11-12T10:42:38.793Z	Clerk	reachable
+2026-11-12T10:42:38.793Z	Inngest	reachable
+2026-11-12T10:42:38.793Z	PlanetScale	reachable
+2026-11-12T10:42:38.793Z	SolidJobs IT	reachable
