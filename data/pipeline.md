@@ -88,4 +88,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/zscaler/jobs/5278563007 | IN-zscaler | Senior AI Platform Engineer | Pune, IND | posted: 2026-11-11
 
+- [ ] https://careers.allianz.com/global/en/job/109862/Solution-Architect-SF-AI-3451 | Allianz | Solution Architect \[SF & AI\]_3451 | Pune, Maharashtra, India, 411014 | posted: 2026-11-11
+
 ## Processed
