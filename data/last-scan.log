@@ -1,24 +1,24 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[10:37:09] scan: 25/148 sources done
-[10:37:10] scan: 50/148 sources done
-[10:37:10] scan: 75/148 sources done
-[10:37:11] scan: 100/148 sources done
-[10:37:11] scan: 125/148 sources done
-[10:38:12] scan: 148/148 sources done
+[09:51:47] scan: 25/148 sources done
+[09:51:48] scan: 50/148 sources done
+[09:51:49] scan: 75/148 sources done
+[09:51:49] scan: 100/148 sources done
+[09:51:50] scan: 125/148 sources done
+[09:52:36] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-13
+Portal Scan — 2026-11-14
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23370
-Filtered by title:     19941 removed
-Filtered by location:  3334 removed
-Filtered by age:       83 removed
+Total jobs found:      23528
+Filtered by title:     20087 removed
+Filtered by location:  3345 removed
+Filtered by age:       84 removed
 Filtered by posted date: 0 removed
-Duplicates:            11 skipped
-New offers added:      1
+Duplicates:            12 skipped
+New offers added:      0
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -46,16 +46,10 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
 🚨 FIX NEEDED: 2 target(s) have been unreachable for 3+ runs:
    Parloa, Mistral AI
    Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
-🟡 6 target(s) live but empty: GetYourGuide, Qonto, Lakera, Bolt, Toggl, Doist
+🟡 6 target(s) live but empty: GetYourGuide, Lakera, Bolt, Toggl, Doist, Qonto
 
-Network errors (2):
+Network errors (1):
   ✗ DeepSeek: fetch failed
-  ✗ Pigment: This operation was aborted
-
-New offers:
-  + Allianz | Solution Architect [SF & AI]_3451 | Pune, Maharashtra, India, 411014
-
-Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4
