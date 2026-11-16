@@ -1,24 +1,24 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[10:27:07] scan: 25/148 sources done
-[10:27:07] scan: 50/148 sources done
-[10:27:08] scan: 75/148 sources done
-[10:27:09] scan: 100/148 sources done
-[10:27:10] scan: 125/148 sources done
-[10:27:57] scan: 148/148 sources done
+[10:42:27] scan: 25/148 sources done
+[10:42:28] scan: 50/148 sources done
+[10:42:29] scan: 75/148 sources done
+[10:42:30] scan: 100/148 sources done
+[10:42:31] scan: 125/148 sources done
+[10:43:21] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-15
+Portal Scan — 2026-11-16
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23493
-Filtered by title:     20062 removed
-Filtered by location:  3336 removed
-Filtered by age:       84 removed
+Total jobs found:      23451
+Filtered by title:     19998 removed
+Filtered by location:  3355 removed
+Filtered by age:       85 removed
 Filtered by posted date: 0 removed
 Duplicates:            11 skipped
-New offers added:      0
+New offers added:      2
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -47,6 +47,15 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
    Parloa, Mistral AI
    Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
 🟡 6 target(s) live but empty: GetYourGuide, Qonto, Lakera, Bolt, Toggl, Doist
+
+Network errors (1):
+  ✗ DeepSeek: fetch failed
+
+New offers:
+  + IN-zscaler | Software Architect – Agentic AI & Distributed Systems | Bangalore, IND
+  + IN-coursera | Senior AI Specialist | Mumbai, India
+
+Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4

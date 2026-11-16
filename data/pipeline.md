@@ -90,4 +90,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://careers.allianz.com/global/en/job/109862/Solution-Architect-SF-AI-3451 | Allianz | Solution Architect \[SF & AI\]_3451 | Pune, Maharashtra, India, 411014 | posted: 2026-11-11
 
+- [ ] https://job-boards.greenhouse.io/zscaler/jobs/5290020007 | IN-zscaler | Software Architect – Agentic AI & Distributed Systems | Bangalore, IND | posted: 2026-11-13
+- [ ] https://job-boards.greenhouse.io/coursera/jobs/6261069004 | IN-coursera | Senior AI Specialist | Mumbai, India | posted: 2026-11-16
+
 ## Processed
