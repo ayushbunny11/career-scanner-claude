@@ -93,4 +93,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/zscaler/jobs/5290020007 | IN-zscaler | Software Architect – Agentic AI & Distributed Systems | Bangalore, IND | posted: 2026-11-13
 - [ ] https://job-boards.greenhouse.io/coursera/jobs/6261069004 | IN-coursera | Senior AI Specialist | Mumbai, India | posted: 2026-11-16
 
+- [ ] https://jobs.ashbyhq.com/snowflake/a276eb40-644b-4384-9d9a-bae1c263baa6 | IN-snowflake | Forward Deployed Engineer, Frontier Engineering | IN-Bangalore-MSO · Bengaluru · India · IN-Mumbai-MSO · Mumbai | posted: 2026-11-17
+- [ ] https://jobs.ashbyhq.com/ElevenLabs/6b5a902d-49ea-4fa9-ab67-d6e88c361695 | ElevenLabs | Deployment Strategist Lead - India | India · Remote | posted: 2026-11-16
+
 ## Processed

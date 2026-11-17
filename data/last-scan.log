@@ -1,23 +1,23 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[10:42:27] scan: 25/148 sources done
-[10:42:28] scan: 50/148 sources done
-[10:42:29] scan: 75/148 sources done
-[10:42:30] scan: 100/148 sources done
-[10:42:31] scan: 125/148 sources done
-[10:43:21] scan: 148/148 sources done
+[11:31:04] scan: 25/148 sources done
+[11:31:05] scan: 50/148 sources done
+[11:31:06] scan: 75/148 sources done
+[11:31:23] scan: 100/148 sources done
+[11:31:36] scan: 125/148 sources done
+[11:32:06] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-16
+Portal Scan — 2026-11-17
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23451
-Filtered by title:     19998 removed
-Filtered by location:  3355 removed
-Filtered by age:       85 removed
+Total jobs found:      22572
+Filtered by title:     19241 removed
+Filtered by location:  3241 removed
+Filtered by age:       78 removed
 Filtered by posted date: 0 removed
-Duplicates:            11 skipped
+Duplicates:            10 skipped
 New offers added:      2
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
@@ -46,14 +46,24 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
 🚨 FIX NEEDED: 2 target(s) have been unreachable for 3+ runs:
    Parloa, Mistral AI
    Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
-🟡 6 target(s) live but empty: GetYourGuide, Qonto, Lakera, Bolt, Toggl, Doist
+🟡 5 target(s) live but empty: GetYourGuide, Lakera, Bolt, Toggl, Doist
 
-Network errors (1):
-  ✗ DeepSeek: fetch failed
+Network errors (11):
+  ✗ IN-cred: This operation was aborted
+  ✗ IN-meesho: This operation was aborted
+  ✗ IN-paytm: This operation was aborted
+  ✗ IN-zeta: This operation was aborted
+  ✗ IN-mindtickle: This operation was aborted
+  ✗ Palantir: This operation was aborted
+  ✗ Tinybird: This operation was aborted
+  ✗ Qonto: This operation was aborted
+  ✗ Pigment: This operation was aborted
+  ✗ Spotify: This operation was aborted
+  ✗ Hotjar: This operation was aborted
 
 New offers:
-  + IN-zscaler | Software Architect – Agentic AI & Distributed Systems | Bangalore, IND
-  + IN-coursera | Senior AI Specialist | Mumbai, India
+  + IN-snowflake | Forward Deployed Engineer, Frontier Engineering | IN-Bangalore-MSO · Bengaluru · India · IN-Mumbai-MSO · Mumbai
+  + ElevenLabs | Deployment Strategist Lead - India | India · Remote
 
 Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
 
