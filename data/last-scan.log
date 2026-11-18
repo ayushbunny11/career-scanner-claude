@@ -1,24 +1,24 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[11:31:04] scan: 25/148 sources done
-[11:31:05] scan: 50/148 sources done
-[11:31:06] scan: 75/148 sources done
-[11:31:23] scan: 100/148 sources done
-[11:31:36] scan: 125/148 sources done
-[11:32:06] scan: 148/148 sources done
+[11:12:23] scan: 25/148 sources done
+[11:12:24] scan: 50/148 sources done
+[11:12:25] scan: 75/148 sources done
+[11:12:25] scan: 100/148 sources done
+[11:12:26] scan: 125/148 sources done
+[11:13:19] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-17
+Portal Scan — 2026-11-18
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      22572
-Filtered by title:     19241 removed
-Filtered by location:  3241 removed
-Filtered by age:       78 removed
+Total jobs found:      23209
+Filtered by title:     19831 removed
+Filtered by location:  3279 removed
+Filtered by age:       91 removed
 Filtered by posted date: 0 removed
-Duplicates:            10 skipped
-New offers added:      2
+Duplicates:            7 skipped
+New offers added:      1
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -46,24 +46,13 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
 🚨 FIX NEEDED: 2 target(s) have been unreachable for 3+ runs:
    Parloa, Mistral AI
    Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
-🟡 5 target(s) live but empty: GetYourGuide, Lakera, Bolt, Toggl, Doist
+🟡 6 target(s) live but empty: GetYourGuide, Qonto, Lakera, Bolt, Toggl, Doist
 
-Network errors (11):
-  ✗ IN-cred: This operation was aborted
-  ✗ IN-meesho: This operation was aborted
-  ✗ IN-paytm: This operation was aborted
-  ✗ IN-zeta: This operation was aborted
-  ✗ IN-mindtickle: This operation was aborted
-  ✗ Palantir: This operation was aborted
-  ✗ Tinybird: This operation was aborted
-  ✗ Qonto: This operation was aborted
-  ✗ Pigment: This operation was aborted
-  ✗ Spotify: This operation was aborted
-  ✗ Hotjar: This operation was aborted
+Network errors (1):
+  ✗ DeepSeek: fetch failed
 
 New offers:
-  + IN-snowflake | Forward Deployed Engineer, Frontier Engineering | IN-Bangalore-MSO · Bengaluru · India · IN-Mumbai-MSO · Mumbai
-  + ElevenLabs | Deployment Strategist Lead - India | India · Remote
+  + Travelperk | Customer Care Agent - AmTrav (Remote) | Dallas, Texas · Dallas · US · Chicago · United States · Orlando, Florida · Orlando · Houston, Texas · Houston · Remote
 
 Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
 

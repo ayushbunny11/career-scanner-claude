@@ -96,4 +96,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.ashbyhq.com/snowflake/a276eb40-644b-4384-9d9a-bae1c263baa6 | IN-snowflake | Forward Deployed Engineer, Frontier Engineering | IN-Bangalore-MSO · Bengaluru · India · IN-Mumbai-MSO · Mumbai | posted: 2026-11-17
 - [ ] https://jobs.ashbyhq.com/ElevenLabs/6b5a902d-49ea-4fa9-ab67-d6e88c361695 | ElevenLabs | Deployment Strategist Lead - India | India · Remote | posted: 2026-11-16
 
+- [ ] https://jobs.ashbyhq.com/Perk/8456464f-65ee-4947-9f9a-87e6add7a134 | Travelperk | Customer Care Agent - AmTrav (Remote) | Dallas, Texas · Dallas · US · Chicago · United States · Orlando, Florida · Orlando · Houston, Texas · Houston · Remote | 41600-45760 USD | posted: 2026-11-17
+
 ## Processed
