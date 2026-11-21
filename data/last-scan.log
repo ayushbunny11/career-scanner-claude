@@ -1,26 +1,24 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[10:58:01] scan: 25/148 sources done
-[10:58:01] scan: 50/148 sources done
-[10:58:02] scan: 75/148 sources done
-[10:58:03] scan: 100/148 sources done
-[10:58:04] scan: 125/148 sources done
-⚠️  greenhouse: IN-stripe /offices enrichment failed — This operation was aborted (keeping work-model-only locations)
-  ⚠ feishu-jobs: keyword "AI" page 3 failed (This operation was aborted) — keeping the 200 jobs collected so far
-[10:58:18] scan: 148/148 sources done
+[10:41:16] scan: 25/148 sources done
+[10:41:17] scan: 50/148 sources done
+[10:41:18] scan: 75/148 sources done
+[10:41:19] scan: 100/148 sources done
+[10:41:21] scan: 125/148 sources done
+[10:42:04] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-20
+Portal Scan — 2026-11-21
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      18431
-Filtered by title:     16867 removed
-Filtered by location:  1474 removed
-Filtered by age:       83 removed
+Total jobs found:      23672
+Filtered by title:     20224 removed
+Filtered by location:  3357 removed
+Filtered by age:       85 removed
 Filtered by posted date: 0 removed
-Duplicates:            7 skipped
-New offers added:      0
+Duplicates:            5 skipped
+New offers added:      1
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -50,8 +48,10 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
    Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
 🟡 6 target(s) live but empty: GetYourGuide, Qonto, Lakera, Bolt, Toggl, Doist
 
-Network errors (1):
-  ✗ DeepSeek: fetch failed
+New offers:
+  + IN-rubrik | Senior AI Engineer - Enterprise Agentic Systems | Bangalore, India
+
+Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4

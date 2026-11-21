@@ -98,4 +98,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/Perk/8456464f-65ee-4947-9f9a-87e6add7a134 | Travelperk | Customer Care Agent - AmTrav (Remote) | Dallas, Texas · Dallas · US · Chicago · United States · Orlando, Florida · Orlando · Houston, Texas · Houston · Remote | 41600-45760 USD | posted: 2026-11-17
 
+- [ ] https://www.rubrik.com/company/careers/departments/job.8358790?gh_jid=8358790 | IN-rubrik | Senior AI Engineer - Enterprise Agentic Systems | Bangalore, India | posted: 2026-11-21
+
 ## Processed
