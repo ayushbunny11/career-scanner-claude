@@ -1,24 +1,24 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[10:41:16] scan: 25/148 sources done
-[10:41:17] scan: 50/148 sources done
-[10:41:18] scan: 75/148 sources done
-[10:41:19] scan: 100/148 sources done
-[10:41:21] scan: 125/148 sources done
-[10:42:04] scan: 148/148 sources done
+[10:47:07] scan: 25/148 sources done
+[10:47:08] scan: 50/148 sources done
+[10:47:09] scan: 75/148 sources done
+[10:47:09] scan: 100/148 sources done
+[10:47:10] scan: 125/148 sources done
+[10:48:03] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-21
+Portal Scan — 2026-11-22
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23672
-Filtered by title:     20224 removed
-Filtered by location:  3357 removed
+Total jobs found:      23597
+Filtered by title:     20140 removed
+Filtered by location:  3366 removed
 Filtered by age:       85 removed
 Filtered by posted date: 0 removed
-Duplicates:            5 skipped
-New offers added:      1
+Duplicates:            6 skipped
+New offers added:      0
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -47,11 +47,6 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
    Parloa, Mistral AI
    Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
 🟡 6 target(s) live but empty: GetYourGuide, Qonto, Lakera, Bolt, Toggl, Doist
-
-New offers:
-  + IN-rubrik | Senior AI Engineer - Enterprise Agentic Systems | Bangalore, India
-
-Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4
