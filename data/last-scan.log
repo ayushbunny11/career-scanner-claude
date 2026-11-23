@@ -1,23 +1,23 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[10:47:07] scan: 25/148 sources done
-[10:47:08] scan: 50/148 sources done
-[10:47:09] scan: 75/148 sources done
-[10:47:09] scan: 100/148 sources done
-[10:47:10] scan: 125/148 sources done
-[10:48:03] scan: 148/148 sources done
+[11:53:17] scan: 25/148 sources done
+[11:53:17] scan: 50/148 sources done
+[11:53:18] scan: 75/148 sources done
+[11:53:19] scan: 100/148 sources done
+[11:53:20] scan: 125/148 sources done
+[11:54:07] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-22
+Portal Scan — 2026-11-23
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23597
-Filtered by title:     20140 removed
-Filtered by location:  3366 removed
-Filtered by age:       85 removed
+Total jobs found:      23396
+Filtered by title:     20020 removed
+Filtered by location:  3292 removed
+Filtered by age:       80 removed
 Filtered by posted date: 0 removed
-Duplicates:            6 skipped
+Duplicates:            4 skipped
 New offers added:      0
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
@@ -47,6 +47,9 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
    Parloa, Mistral AI
    Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
 🟡 6 target(s) live but empty: GetYourGuide, Qonto, Lakera, Bolt, Toggl, Doist
+
+Network errors (1):
+  ✗ DeepSeek: fetch failed
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4
