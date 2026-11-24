@@ -100,4 +100,9 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://www.rubrik.com/company/careers/departments/job.8358790?gh_jid=8358790 | IN-rubrik | Senior AI Engineer - Enterprise Agentic Systems | Bangalore, India | posted: 2026-11-21
 
+- [ ] https://job-boards.greenhouse.io/gitlab/jobs/8940982002 | IN-gitlab | Applied AI Engineer, Enterprise AI | Bangalore, India | posted: 2026-11-23
+- [ ] https://jobs.ashbyhq.com/sarvam/9d8a0c6b-c391-46bf-960d-1b733f999863 | IN-sarvam | Deployment Strategist I (DS-1) | Mumbai · India | posted: 2026-11-24
+- [ ] https://jobs.ashbyhq.com/sarvam/0e02db36-768a-4d16-9a54-a8eee10eb2c1 | IN-sarvam | Deployment Strategist II (DS-2) | Mumbai · India · Delhi | posted: 2026-11-24
+- [ ] https://careers.allianz.com/global/en/job/110612/AI-Applied-Engineer-3254 | Allianz | AI Applied Engineer_3254 | India | posted: 2026-11-24
+
 ## Processed
