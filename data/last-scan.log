@@ -1,24 +1,24 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[13:19:52] scan: 25/148 sources done
-[13:19:53] scan: 50/148 sources done
-[13:19:54] scan: 75/148 sources done
-[13:19:54] scan: 100/148 sources done
-[13:19:56] scan: 125/148 sources done
-[13:20:49] scan: 148/148 sources done
+[12:12:37] scan: 25/148 sources done
+[12:12:38] scan: 50/148 sources done
+[12:12:38] scan: 75/148 sources done
+[12:12:40] scan: 100/148 sources done
+[12:12:41] scan: 125/148 sources done
+[12:13:29] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-24
+Portal Scan — 2026-11-25
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23582
-Filtered by title:     20158 removed
-Filtered by location:  3338 removed
-Filtered by age:       77 removed
+Total jobs found:      23633
+Filtered by title:     20203 removed
+Filtered by location:  3342 removed
+Filtered by age:       78 removed
 Filtered by posted date: 0 removed
-Duplicates:            5 skipped
-New offers added:      4
+Duplicates:            8 skipped
+New offers added:      2
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -43,19 +43,14 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • Zep AI (websearch) — "Zep" "Forward Deployed" OR "Developer Relations" OR "Founding" site:workatastartup.com OR site:getzep.com
   • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
 
-🚨 FIX NEEDED: 2 target(s) have been unreachable for 3+ runs:
-   Parloa, Mistral AI
+🚨 FIX NEEDED: 3 target(s) have been unreachable for 3+ runs:
+   Parloa, Mistral AI, DeepSeek
    Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
-🟡 6 target(s) live but empty: GetYourGuide, Lakera, Bolt, Toggl, Doist, Qonto
-
-Network errors (1):
-  ✗ DeepSeek: fetch failed
+🟡 6 target(s) live but empty: GetYourGuide, Qonto, Lakera, Bolt, Toggl, Doist
 
 New offers:
-  + IN-gitlab | Applied AI Engineer, Enterprise AI | Bangalore, India
-  + IN-sarvam | Deployment Strategist I (DS-1) | Mumbai · India
-  + IN-sarvam | Deployment Strategist II (DS-2) | Mumbai · India · Delhi
-  + Allianz | AI Applied Engineer_3254 | India
+  + IN-rubrik | Senior AI Engineer - Enterprise Agentic Systems | Bengaluru, India
+  + Anthropic | Applied AI Architect, Beneficial Deployment | Bangalore, India
 
 Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
 
