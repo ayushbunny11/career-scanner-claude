@@ -108,4 +108,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://www.rubrik.com/company/careers/departments/job.8318071?gh_jid=8318071 | IN-rubrik | Senior AI Engineer - Enterprise Agentic Systems | Bengaluru, India | posted: 2026-11-25
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5486776008 | Anthropic | Applied AI Architect, Beneficial Deployment | Bangalore, India | posted: 2026-11-20
 
+- [ ] https://jobs.ashbyhq.com/atlan/dbb8cec5-f9b8-46af-bbbe-9638c5646638 | IN-atlan | AI Native Builder - Frontend | India · Remote | posted: 2026-11-26
+
 ## Processed
