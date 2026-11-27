@@ -1,24 +1,25 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[11:57:07] scan: 25/148 sources done
-[11:57:08] scan: 50/148 sources done
-[11:57:08] scan: 75/148 sources done
-[11:57:09] scan: 100/148 sources done
-[11:57:10] scan: 125/148 sources done
-[11:58:05] scan: 148/148 sources done
+[11:49:37] scan: 25/148 sources done
+[11:49:37] scan: 50/148 sources done
+[11:49:38] scan: 75/148 sources done
+[11:49:39] scan: 100/148 sources done
+[11:49:39] scan: 125/148 sources done
+⚠️  greenhouse: IN-stripe /offices enrichment failed — This operation was aborted (keeping work-model-only locations)
+[11:50:27] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-26
+Portal Scan — 2026-11-27
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23133
-Filtered by title:     19745 removed
-Filtered by location:  3298 removed
-Filtered by age:       79 removed
+Total jobs found:      23769
+Filtered by title:     20314 removed
+Filtered by location:  3368 removed
+Filtered by age:       77 removed
 Filtered by posted date: 0 removed
 Duplicates:            10 skipped
-New offers added:      1
+New offers added:      0
 Agent/WebSearch handoff: 22 companies not handled by zero-token providers
   • OpenAI (websearch) — site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"
   • LivePerson (websearch) — site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io
@@ -48,10 +49,8 @@ Agent/WebSearch handoff: 22 companies not handled by zero-token providers
    Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
 🟡 6 target(s) live but empty: GetYourGuide, Qonto, Lakera, Bolt, Toggl, Doist
 
-New offers:
-  + IN-atlan | AI Native Builder - Frontend | India · Remote
-
-Results saved to /home/runner/work/career-scanner-claude/career-scanner-claude/data/pipeline.md and /home/runner/work/career-scanner-claude/career-scanner-claude/data/scan-history.tsv
+Network errors (1):
+  ✗ DeepSeek: fetch failed
 
 → Run /career-ops pipeline to evaluate new offers.
 → Share results and get help: https://discord.gg/8pRpHETxa4
