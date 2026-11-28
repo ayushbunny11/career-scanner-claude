@@ -1,22 +1,21 @@
 Scanning 147 companies; 1 job boards; 0 local parser; 23 skipped — no provider matched via providers
-[11:49:37] scan: 25/148 sources done
-[11:49:37] scan: 50/148 sources done
-[11:49:38] scan: 75/148 sources done
-[11:49:39] scan: 100/148 sources done
-[11:49:39] scan: 125/148 sources done
-⚠️  greenhouse: IN-stripe /offices enrichment failed — This operation was aborted (keeping work-model-only locations)
-[11:50:27] scan: 148/148 sources done
+[11:25:26] scan: 25/148 sources done
+[11:25:26] scan: 50/148 sources done
+[11:25:27] scan: 75/148 sources done
+[11:25:28] scan: 100/148 sources done
+[11:25:29] scan: 125/148 sources done
+[11:26:11] scan: 148/148 sources done
 
 ::career-ops:scan-summary::
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portal Scan — 2026-11-27
+Portal Scan — 2026-11-28
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Companies scanned:     147
 Job boards scanned:    1
-Total jobs found:      23769
-Filtered by title:     20314 removed
-Filtered by location:  3368 removed
-Filtered by age:       77 removed
+Total jobs found:      23789
+Filtered by title:     20331 removed
+Filtered by location:  3372 removed
+Filtered by age:       76 removed
 Filtered by posted date: 0 removed
 Duplicates:            10 skipped
 New offers added:      0
